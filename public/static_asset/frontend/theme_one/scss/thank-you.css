@@ -1,0 +1,40 @@
+.thank-message .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center; }
+  .thank-message .container div:nth-of-type(1) {
+    margin-top: 30px; }
+    .thank-message .container div:nth-of-type(1) img {
+      width: 350px;
+      height: auto; }
+  .thank-message .container div:nth-of-type(2) {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    max-width: 371px; }
+    .thank-message .container div:nth-of-type(2) span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      text-align: center;
+      color: #1A1A1A; }
+  .thank-message .container div:nth-of-type(3) {
+    margin-bottom: 60px; }
+    .thank-message .container div:nth-of-type(3) a {
+      width: 299px;
+      height: 36px;
+      background: #191E64;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Blue */ }
+      .thank-message .container div:nth-of-type(3) a:hover {
+        background-color: #F07D19; }
+
+@media (max-widtH: 768px) {
+  .thank-message .container div:nth-of-type(1) img {
+    widtH: 250px; } }
+
+/*# sourceMappingURL=thank-you.css.map */

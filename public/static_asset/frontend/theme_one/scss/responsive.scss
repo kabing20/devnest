@@ -1,0 +1,295 @@
+@media(max-widtH:1400px){}
+
+@media(max-widtH:992px){
+     
+   .client-section{
+       widtH:100%;
+       overflow:hidden;
+   }
+    .video-section .container .row .second .dots{
+        display:none;
+    }
+    .navbar{
+       
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-nav.ml-auto{
+        padding-bottom: 20px;
+    }
+    .navbar-nav.ml-auto {
+        padding-bottom: 20px;
+        
+    }
+    .navbar-nav.ml-auto .last-item{
+        widtH:170px;
+        display:flex;
+        justify-content: center;
+        margin-top:7px;
+    }
+    .secondary-menu .container ul li{
+        padding-right:5px;
+    }
+    .secondary-menu .container ul li:last-child{
+        display:none;
+    }
+    .secondary-menu .container ul li a{
+        font-size:9px;
+    }
+   
+   
+ 
+    .request-quote .container .row .col-md-6{
+        flex:auto;
+        max-width: initial;
+    }
+    .request-quote .container .row .col-md-6:nth-of-type(1){
+        margin-bottom: 20px;
+    }
+    .adaptations{
+        max-width: 100%;
+        overflow:hidden;
+    }
+    .request-quote{
+        margin-top:20px;
+        max-width: 100%;
+        overflow:hidden;
+    }
+    .request-quote .container .row .col-md-6:nth-of-type(2){
+        padding-bottom: 20px;
+    }
+    .video-section{
+        margin-top:20px;
+    }
+    .video-section .container .row .second p{
+        widtH:100%;
+}
+.events .container .first .col-md-6{
+    flex:auto;
+    max-width: initial;
+}
+.get-in-touch{
+    align-items: flex-start;
+}
+.site-newsletter .container .newsletter-section .row .col-md-6 .site-content h3{
+    font-size:26px;
+}
+.site-newsletter .container .newsletter-section .row .col-md-6:nth-of-type(2){
+    flex:auto;
+    max-width: initial;
+}
+.site-newsletter .dot{
+    right:0;
+}
+.client-section{
+    margin-top:20px;
+}
+.client-section .container-fluid .row .first p{
+    width:auto;
+}
+.client-section .container-fluid{
+    padding-right: 0px;
+}
+.client-section .container-fluid .row .first .view-btn{
+    margin-bottom: 40px;
+}
+.client-section .container-fluid .row .col-md-3{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.best-products{
+    margin-top:40px;
+}
+.best-products .container .slidep{
+    margin-bottom: 60px;
+}
+.events .container .first .col-md-6 .items .row .col-md-8 h5{
+    margin-top:10px;
+}
+
+}
+
+
+@media(max-widtH:768px){
+   
+    .video-section .container .row .second h4{
+        font-size: 20px;
+        margin-top:10px;
+    }
+    .secondary-menu .container ul{
+        text-align: right;
+    }
+  footer .container .row .col-lg-4{
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+  .other .second .affiliate .col-md-4 img{
+      height:35px;
+  }
+  .get-in-touch {
+      flex-direction: row;
+      margin-top:25px;
+   
+  }
+  .get-in-touch .second{
+      margin-top:0px !important;
+  }
+  .footer-address ul li{
+      font-size:12px;
+  }
+  //home
+  .adaptations .container{
+      margin-top:0px;
+      padding-top:60px;
+      padding-bottom: 20px;
+  }
+  .adaptations .container h3{
+      font-size: 20px;
+  }
+  .events .container .row .col-md-6 .items .row{
+      flex-wrap: nowrap;
+}
+.events .container .row .col-md-6 .items{
+    margin-bottom: 20px;
+}
+
+}
+
+@media(max-widtH:576px){
+    .client-section .container-fluid .row .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .client-section .container-fluid .row .col-md-3 h4{
+        padding:10px 0px 0px 0px;
+    }
+    .client-section .container-fluid .row .first p{
+        margin-top:10px !important;
+    }
+    .events .container .row .col-md-6 .items .row{
+        flex-wrap: nowrap;
+  }
+    
+    .video-section .container .row .second h4{
+        font-size: 18px;
+        margin-top:10px;
+    }
+    .adaptations .container h3{
+        font-size:14px;
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+    }
+    
+    .footer-address ul li{
+        font-size:14px;
+    }
+    footer .container .row .col-lg-4{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+   
+    .secondary-menu .container ul {
+        text-align: center;
+    }
+    .secondary-menu .container ul li{
+        padding-left:10px;
+    }
+    .secondary-menu .container ul{
+        text-align: left;
+    }
+    footer .container .row .other .first{
+        margin-top:25px;
+        margin-bottom: 25px;
+    }
+    footer .container .row .other .second{
+        margin-top:0px !important;
+        margin-bottom: 25px;
+    }
+    .get-in-touch{
+        flex-direction: row;
+       
+    }
+    .get-in-touch .second{
+        margin-top:0px !important;
+
+    }
+}
+
+@media(max-widtH:450px){
+    .events .container .row .col-md-6 .items .row{
+        flex-wrap: wrap;
+  }
+  .banner-overlay .social-group{
+      top:50%;
+  }
+    .get-in-touch .second img{
+        height: 55px;
+        width: auto;
+    }
+    .video-section .container .row .second h4{
+        font-size: 16px;
+        margin-top:10px;
+    }
+    .events .container .second .affiliate .col-md-4 img{
+        height:50px;
+    }
+  
+    .read-more-btn{
+        width: 100px;
+    height: 30px;
+    font-size: 9px;
+    }
+   
+   
+}
+@media(max-widtH:400px){
+    .events .container .second .affiliate .col-md-4 img{
+        height:45px;
+    }
+    .get-in-touch{
+        flex-direction: column;
+    }
+    .get-in-touch .second{
+        margin-top:25px !important;
+    }
+    .get-in-touch .first p{
+        width: 100%;
+    }
+  
+}
+@media(max-widtH:350px){
+    
+    .video-section .container .row .second h4{
+        font-size: 14px;
+        margin-top:10px;
+    }
+    .secondary-menu .container ul li{
+        padding-left:0px;
+    }
+    .get-in-touch .second img{
+        height: 45px;
+        width: auto;
+    }
+
+  
+
+
+    //events
+    .events .container .second .affiliate .col-md-4 img{
+        height:35px;
+    }
+}
+@media(max-widtH:315px){
+    .secondary-menu .container ul {
+        text-align: left;
+        column-count: 2;
+    }
+}
+@media(max-widtH:300px){
+   
+    .footer-address ul li{
+        font-size:12px;
+    }
+    .other .second .affiliate .col-md-4 img{
+        height:35px;
+    }
+}

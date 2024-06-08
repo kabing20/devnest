@@ -1,0 +1,76 @@
+.forget{
+    padding:40px 0px;
+    margin-bottom: 40px;
+    .container{
+        .row{
+            .col-md-7{
+                height:260px;
+                img{
+                    widtH:100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+            .col-md-5{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+              
+                    .user-form{
+                        .small-title{
+                            color: #929292;
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+                        h2{
+                            font-weight: 700;
+                            font-size: 28px;
+                            text-transform: capitalize;
+                            margin-bottom:20px;
+                        }
+                        form{
+                            input{
+                                width: 100%;
+                                 border: 1px solid #d6d6d6;
+                                border-radius: 5px;
+                                padding: 10px;
+                            }
+                            button{
+                                widtH:100%;
+                                color: #fff !important;
+                                border: unset;
+                                padding: 12px 35px;
+                                cursor: pointer;
+                                background: #191E64;
+                                transition: all 0.4s;
+                                border-radius: 10px;
+                                &.orange{
+                                    background: #F07D19;
+                                }
+                            }
+                        }
+                    }
+                
+            }
+        }
+    }
+}
+
+//responsive
+
+@media(max-widtH:992px){
+    .forget .container .row .col-md-7{
+        margin-bottom: 40px;
+        height:auto;
+    }
+    .forget{
+margin-bottom: 0px;
+    }
+}
+
+@media(max-widtH:768px){
+    .forget .container .row .col-md-7{
+        height:150px;
+    }
+}

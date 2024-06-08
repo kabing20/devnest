@@ -1,0 +1,15 @@
+<?php
+
+namespace Module\Common\Repositories;
+
+
+use Module\Common\Models\{{bigtitle}};
+use Module\Common\Repository;
+
+class {{bigtitle}}Repository extends Repository
+{
+    function getModel()
+    {
+        return {{bigtitle}}::class;
+    }
+}

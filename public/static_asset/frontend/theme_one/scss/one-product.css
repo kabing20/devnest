@@ -1,0 +1,230 @@
+.first-top {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .first-top .breadcrumb-s {
+    background: #000000;
+    padding: 10px 0px; }
+    .first-top .breadcrumb-s span {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #FFFFFF; }
+  .first-top .flyer-download {
+    background: url("../images/one-product/back-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    text-align: center; }
+    .first-top .flyer-download .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+      .first-top .flyer-download .container h4 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #FFFFFF; }
+      .first-top .flyer-download .container p {
+        max-width: 823px;
+        margin-lefT: auto;
+        margin-right: auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        padding: 10px 0px;
+        /* White */
+        color: #FFFFFF; }
+      .first-top .flyer-download .container a {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #191E64;
+        width: 200px;
+        height: 40px;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .first-top .flyer-download .container a i {
+          color: #191E64;
+          margin-right: 10px; }
+        .first-top .flyer-download .container a:hover {
+          background: #F07D19;
+          cursor: pointer;
+          color: #ffffff; }
+          .first-top .flyer-download .container a:hover i {
+            color: #ffffff; }
+
+.one-product {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .one-product .container .second-description {
+    padding-top: 40px; }
+    .one-product .container .second-description .first-row .row .col-md-4 img {
+      widtH: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .one-product .container .second-description .first-row .row .col-md-8 .info {
+      max-width: 80%; }
+      .one-product .container .second-description .first-row .row .col-md-8 .info p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: #000000; }
+    .one-product .container .second-description .first-row .row .col-md-8 .table-section .first {
+      font-size: 14px;
+      color: #000000;
+      max-width: 70%;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+    .one-product .container .second-description .first-row .row .col-md-8 .table-section .second .row .col-md-6 h5 {
+      font-size: 14px;
+      color: #ffffff;
+      background: grey;
+      padding: 10px 10px;
+      width: 180px;
+      display: flex;
+      justify-content: center;
+      border-radius: 10px;
+      margin-bottom: 10px; }
+    .one-product .container .second-description .first-row .row .col-md-8 .table-section .second .row .col-md-6 ul {
+      list-style-type: disc;
+      padding-lefT: 15px; }
+      .one-product .container .second-description .first-row .row .col-md-8 .table-section .second .row .col-md-6 ul li {
+        font-size: 14px;
+        color: #000000; }
+    .one-product .container .second-description .first-row .row .col-md-8 .table-section .third h4 {
+      font-size: 14px;
+      color: #000000;
+      margin-top: 30px; }
+    .one-product .container .second-description .first-row .row .col-md-8 .table-section .third ul {
+      list-style-type: disc;
+      padding-lefT: 15px; }
+    .one-product .container .second-description .second-row {
+      margin-top: 40px; }
+      .one-product .container .second-description .second-row .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        .one-product .container .second-description .second-row .row .col-md-3 {
+          flex: 0 0 24%;
+          max-widtH: 24%; }
+          .one-product .container .second-description .second-row .row .col-md-3 a {
+            widtH: 100%; }
+            .one-product .container .second-description .second-row .row .col-md-3 a img {
+              widtH: 100%; }
+  .one-product .container .third-similar {
+    margin-top: 140px; }
+    .one-product .container .third-similar .info-part {
+      text-align: center; }
+      .one-product .container .third-similar .info-part h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #191E64; }
+      .one-product .container .third-similar .info-part p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        max-width: 596px;
+        margin-lefT: auto;
+        margin-right: auto;
+        color: #000000;
+        padding-bottom: 30px; }
+    .one-product .container .third-similar .third-slide {
+      margin-bottom: 120px; }
+      .one-product .container .third-similar .third-slide .slidep1 .col-md-3 a img {
+        widtH: 100%; }
+
+.adaptations .container .slidep1 .slick-dots li button:before {
+  font-size: 12px;
+  color: #191E64; }
+
+.adaptations .container .slidep1 .slick-dots li.slick-active button:before {
+  font-size: 12px;
+  color: #191E64; }
+
+.third-slide .slick-dots {
+  margin-top: 20px; }
+
+.third-slide .slidep1 .slick-list {
+  margin-bottom: 30px; }
+
+.one {
+  display: block; }
+
+.one.first1 {
+  border-bottom: 1px solid #dee2e6; }
+
+#two-col {
+  padding: 5px 0px !important;
+  text-align: center;
+  font-weight: 500; }
+
+.table-size td, .table-size th {
+  padding: 8px; }
+
+.table-size {
+  max-widtH: 60%;
+  margin-top: 15px; }
+
+table.table th, table.table td {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.table-bordered td, .table-bordered th {
+  vertical-align: center !important; }
+
+.table td, .table th {
+  vertical-align: center !important; }
+
+.size-head {
+  font-weight: 500;
+  display: block;
+  margin-top: 20px; }
+
+.note1 {
+  font-size: 12px;
+  font-weight: 600; }
+
+@media (max-width: 768px) {
+  .first-top .flyer-download .container p {
+    font-size: 15px;
+    max-width: auto; }
+
+  .one-product .container .second-description .first-row .row .col-md-8 .info {
+    max-width: 100%; }
+
+  .one-product .container .second-description .first-row .row .col-md-8 .info p {
+    padding-top: 15px; }
+
+  .one-product .container .second-description .first-row .row .col-md-8 .table-section .first {
+    max-width: 100%; }
+
+  .one-product .container .second-description .first-row .row .col-md-8 .table-section .second .row .col-md-6 ul {
+    margin-bottom: 40px; }
+
+  .table-size {
+    max-width: 100%; }
+
+  .one-product .container .third-similar {
+    margin-top: 40px; }
+
+  .one-product .container .third-similar .info-part h4 {
+    font-size: 24px; }
+
+  .one-product .container .third-similar .third-slide {
+    margin-bottom: 60px; }
+
+  .one-product .container .second-description .first-row .row .col-md-4 img {
+    height: 250px;
+    object-fit: contain; } }
+
+/*# sourceMappingURL=one-product.css.map */

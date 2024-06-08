@@ -1,0 +1,20 @@
+<?php
+
+namespace Module\{{module}}\Controllers;
+
+
+use Module\Common\CrudController;
+use Module\Common\Services\{{bigtitle}}Service;
+
+class {{bigtitle}}Controller extends {{module}}BaseController
+{
+    use CrudController;
+    public $view_path = '{{smalltitle}}';
+    public $base_route = '{{smalltitle}}';
+    public $title = '{{bigtitle}}';
+
+    public function __construct({{bigtitle}}Service ${{smalltitle}}Service)
+    {
+        $this->services = ${{smalltitle}}Service;
+    }
+}
