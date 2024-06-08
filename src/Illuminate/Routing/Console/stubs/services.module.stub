@@ -1,0 +1,17 @@
+<?php
+
+namespace Module\Common\Services;
+
+use Module\Common\Repositories\{{bigtitle}}Repository;
+use Module\Common\Services;
+
+class {{bigtitle}}Service
+{
+
+    use Services;
+
+    public function __construct({{bigtitle}}Repository $repository)
+    {
+        $this->repository = $repository;
+    }
+}
